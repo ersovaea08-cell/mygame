@@ -5,6 +5,7 @@
 #include <Windows.h>
 
 
+
 class Puzzle {
 public:
     virtual ~Puzzle() = default;
