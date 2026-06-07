@@ -17,10 +17,10 @@ class MathPuzzle : public Puzzle {
 public:
     bool solve() override {
         std::cout << "\n--- Пример ---\n";
-        std::cout << "Решите пример: 'Сколько будет 15 * 4?'.\n";
+        std::cout << "Решите пример: 'Сколько будет 15 * 4 + 3 ?'.\n";
         std::cout << "Введите ответ: ";
         int answer;
-        if (std::cin >> answer && answer == 60) {
+        if (std::cin >> answer && answer == 63) {
             std::cout << "Ураа! Врота открылась!\n";
             return true;
         }
